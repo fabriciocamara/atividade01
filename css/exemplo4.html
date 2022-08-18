@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 4 Box</title>
+
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background-color: silver;
+            padding: 10px;
+        }
+        #primeira-sessao > div {
+            background-color: #ffff;
+            display: block;
+            width: 48%;
+            display: inline-block;
+            padding: 10px;
+            vertical-align: top;
+            min-height: 180px;
+
+
+        }
+
+        #caixa {
+            background-color: red;
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+            margin-top: 100px;
+        }
+        #caixa2 {
+            background-color: black;
+            width: 100%;
+            height: 100%;
+        }
+
+        #segundo-sessao {
+            background-color: purple;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exemplo 4</h1>
+
+    <section id="primeira-sessao">
+        <div>
+            <h2>Titúlo da notícia 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, magnam laborum. Suscipit quis modi voluptas expedita sint numquam placeat, minima deleniti. Aspernatur repellendus sint distinctio cum minima rerum ducimus explicabo!</p>
+        </div>
+        <div>
+            <h2>Titúlo da notícia 2</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nisi perferendis voluptatum eaque. Ipsa molestias sed quis dicta officia unde labore sunt officiis et, assumenda dolorum ratione voluptas non fugit.</p>
+        </div>
+    </section>
+
+    <section id="segundo-sessao">
+        <div>
+            <h2>Titúlo da notícia 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, magnam laborum. Suscipit quis modi voluptas expedita sint numquam placeat, minima deleniti. Aspernatur repellendus sint distinctio cum minima rerum ducimus explicabo!</p>
+        </div>
+        <div>
+            <h2>Titúlo da notícia 4</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum nisi perferendis voluptatum eaque. Ipsa molestias sed quis dicta officia unde labore sunt officiis et, assumenda dolorum ratione voluptas non fugit.</p>
+        </div>
+    </section>
+
+    <div id="caixa">
+        <div id="caixa2"></div>
+    </div>
+</body>
+</html>
